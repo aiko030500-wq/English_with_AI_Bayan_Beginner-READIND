@@ -669,716 +669,2370 @@ const topicColors = {
 
  /* ----- DATA: READING TOPICS ----- */
 const topics = [
+/* -----------------------------------------
+   TOPIC 1 — ABOUT ME
+------------------------------------------ */
+{
+  id:1,
+  name:"About Me",
+  level:"Beginner",
+  title:"About Me",
+  text:"My name is Ayan and I am twelve years old. I live in Aktau with my parents and my little sister. I study at School №6 and I am in Grade 6G. My favourite subjects are English and PE because I like speaking and playing sports. After school I usually meet my friends, do my homework, and help my mum. In the evening I watch videos or read short stories. I always try to learn something new every day.",
+  vocab:"favourite – любимый; stories – рассказы; subjects – предметы.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Are these sentences true or false?",
+      items:[
+        { text:"Ayan is twelve years old.", answer:true },
+        { text:"Ayan lives alone in another city.", answer:false },
+        { text:"Ayan likes English and PE.", answer:true },
+        { text:"In the evening Ayan always plays football.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose the correct answer.",
+      items:[
+        {
+          q:"Where does Ayan live?",
+          options:["In Aktau.","In Almaty.","In Astana."],
+          correct:0
+        },
+        {
+          q:"Who does Ayan live with?",
+          options:["With friends.","With parents and sister.","With grandparents."],
+          correct:1
+        },
+        {
+          q:"Why does he like English and PE?",
+          options:["Because they are easy.","Because he likes speaking and sports.","Because he has no homework."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose the missing word.",
+      items:[
+        { q:"Ayan studies at School __ 6.", options:["№5","№6","№8"], correct:1 },
+        { q:"After school he meets ___ friends.", options:["his","her","their"], correct:0 },
+        { q:"He reads short ___.", options:["games","stories","tests"], correct:1 }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"What is the text about?",
+      items:[
+        {
+          q:"Choose the best sentence:",
+          options:[
+            "Ayan’s summer holiday.",
+            "Ayan’s daily life and school.",
+            "Ayan’s favourite films."
+          ],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts of the text",
+      desc:"Answer about parts of the text.",
+      items:[
+        {
+          q:"The beginning is about…",
+          options:["Ayan’s hobbies.","Ayan’s name, age and city.","Ayan’s weekend."],
+          correct:1
+        },
+        {
+          q:"The middle is about…",
+          options:["School and favourite subjects.","Travel.","Pets."],
+          correct:0
+        },
+        {
+          q:"The end is about…",
+          options:["Watching videos or reading.","Playing football.","Visiting friends."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order of events",
+      desc:"Put in order.",
+      items:[
+        { text:"Ayan lives in Aktau with family.", order:1 },
+        { text:"He studies at School №6.", order:2 },
+        { text:"He meets friends and does homework.", order:3 },
+        { text:"He reads stories in the evening.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 2 — MY FAMILY
+------------------------------------------ */
+{
+  id:2,
+  name:"My Family",
+  level:"Beginner",
+  title:"My Family",
+  text:"I have a small but friendly family. There are four people: my mum, dad, sister, and me. My mum is a teacher and she loves reading books. My dad is a driver and he likes playing chess. My sister is six years old and she is very funny. Every Sunday we eat breakfast together, clean the house, and go for a walk. I love spending time with my family.",
+  vocab:"friendly – дружная; driver – водитель; funny – смешная.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Read and choose T/F.",
+      items:[
+        { text:"There are four people in the family.", answer:true },
+        { text:"The dad is a teacher.", answer:false },
+        { text:"They walk together on Sundays.", answer:true },
+        { text:"The sister is twelve years old.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose the correct answer.",
+      items:[
+        {
+          q:"What does the mum love?",
+          options:["Cooking.","Reading books.","Travelling."],
+          correct:1
+        },
+        {
+          q:"What does the family do on Sunday?",
+          options:["Plays football.","Goes for a walk.","Visits school."],
+          correct:1
+        },
+        {
+          q:"Who is very funny?",
+          options:["The dad.","The neighbour.","The sister."],
+          correct:2
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose the correct word.",
+      items:[
+        { q:"They have a ___ family.", options:["big","friendly","angry"], correct:1 },
+        { q:"The dad likes playing ___.", options:["football","chess","basketball"], correct:1 },
+        { q:"Every ___ they eat breakfast together.", options:["Sunday","Friday","Monday"], correct:0 }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose the best title.",
+      items:[
+        {
+          q:"The text is about…",
+          options:["School rules.","A happy family.","A long trip."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts of the text",
+      desc:"Answer the questions.",
+      items:[
+        {
+          q:"The beginning tells us…",
+          options:["about the size of the family.","about their holiday.","about neighbours."],
+          correct:0
+        },
+        {
+          q:"The middle tells us…",
+          options:["about parents' jobs.","about food.","about homework."],
+          correct:0
+        },
+        {
+          q:"The end shows…",
+          options:["they fight a lot.","they enjoy time together.","they never walk."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put the events in order.",
+      items:[
+        { text:"There are four people.", order:1 },
+        { text:"Parents' jobs are described.", order:2 },
+        { text:"They eat breakfast together.", order:3 },
+        { text:"They go for a walk.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 3 — MY FRIENDS
+------------------------------------------ */
+{
+  id:3,
+  name:"My Friends",
+  level:"Beginner",
+  title:"My Best Friend",
+  text:"My best friend is Dias. He is twelve years old and he is in my class. Dias is funny, friendly and always ready to help. We often sit together in English lessons. After school we play football or ride bicycles. On weekends we sometimes play computer games or meet in the yard. Dias is a very good friend and I trust him.",
+  vocab:"trust – доверять; friendly – дружелюбный.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Choose T/F.",
+      items:[
+        { text:"Dias is the writer’s best friend.", answer:true },
+        { text:"Dias is older than the writer.", answer:false },
+        { text:"They sit together in English.", answer:true },
+        { text:"They never play games.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose the correct answer.",
+      items:[
+        {
+          q:"Where do they sometimes meet?",
+          options:["In the yard.","In the bank.","In the shop."],
+          correct:0
+        },
+        {
+          q:"What do they do after school?",
+          options:["Watch films.","Play football.","Clean the house."],
+          correct:1
+        },
+        {
+          q:"What kind of person is Dias?",
+          options:["Rude.","Lazy.","Friendly."],
+          correct:2
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Complete the sentence.",
+      items:[
+        { q:"Dias is twelve ___ old.", options:["years","months","days"], correct:0 },
+        { q:"They play ___ after school.", options:["football","piano","chess only"], correct:0 },
+        { q:"Dias is a very ___ friend.", options:["bad","good","strange"], correct:1 }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose the best sentence.",
+      items:[
+        {
+          q:"The text is about…",
+          options:["A birthday party.","The writer’s best friend.","A school trip."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts of the text",
+      desc:"Answer the questions.",
+      items:[
+        {
+          q:"The beginning tells us…",
+          options:["Dias’s age and class.","Weather.","Food."],
+          correct:0
+        },
+        {
+          q:"The middle tells us…",
+          options:["their activities.","a pet.","a trip."],
+          correct:0
+        },
+        {
+          q:"The end tells us…",
+          options:["he trusts Dias.","he changes school.","nothing important."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put events in order.",
+      items:[
+        { text:"Dias is introduced.", order:1 },
+        { text:"They sit together in English.", order:2 },
+        { text:"They play football or ride bicycles.", order:3 },
+        { text:"The writer says he trusts Dias.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 4 — MY HOBBIES
+------------------------------------------ */
+{
+  id:4,
+  name:"My Hobbies",
+  level:"Beginner",
+  title:"My Favourite Hobby",
+  text:"I have many hobbies, but my favourite hobby is drawing. I draw animals, people and beautiful places. After school I take my pencils and draw for one or two hours. My parents say I am creative and talented. Sometimes I watch videos about art and try new styles. Drawing helps me relax and forget about stress. I want to become an artist in the future.",
+  vocab:"creative – творческий; stress – стресс; talented – талантливый.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Choose T/F.",
+      items:[
+        { text:"The writer likes drawing.", answer:true },
+        { text:"He draws only animals.", answer:false },
+        { text:"Drawing helps him relax.", answer:true },
+        { text:"He wants to be a doctor.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose the correct answer.",
+      items:[
+        {
+          q:"How long does he usually draw?",
+          options:["5 minutes.","1–2 hours.","All day."],
+          correct:1
+        },
+        {
+          q:"Who says he is creative?",
+          options:["His friends.","His teachers.","His parents."],
+          correct:2
+        },
+        {
+          q:"What does he sometimes watch?",
+          options:["Videos about art.","Films.","Sports matches."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Fill in.",
+      items:[
+        { q:"He has many ___.", options:["books","hobbies","pets"], correct:1 },
+        { q:"He takes his ___.", options:["pencils","wallet","keys"], correct:0 },
+        { q:"Drawing helps him ___.", options:["sleep","relax","cook"], correct:1 }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose the best title.",
+      items:[
+        {
+          q:"The text is about…",
+          options:["A school project.","A favourite hobby.","A family trip."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Answer.",
+      items:[
+        {
+          q:"The beginning is about…",
+          options:["a hobby.","a lesson.","a teacher."],
+          correct:0
+        },
+        {
+          q:"The middle is about…",
+          options:["daily routine.","drawing for hours.","cooking."],
+          correct:1
+        },
+        {
+          q:"The end is about…",
+          options:["his dream.","weather.","holidays."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He introduces his hobby.", order:1 },
+        { text:"He draws every day.", order:2 },
+        { text:"He watches art videos.", order:3 },
+        { text:"He wants to be an artist.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 5 — MY HOUSE / ROOM
+------------------------------------------ */
+{
+  id:5,
+  name:"My Room",
+  level:"Beginner",
+  title:"My Room",
+  text:"I live in a comfortable flat with my family. My favourite place is my room. It has a bed, a desk, a chair and a big bookshelf. There is a small carpet on the floor and a poster on the wall. I do my homework at the desk and read books on my bed. My room is always clean and tidy because I like when everything is in its place.",
+  vocab:"comfortable – удобный; tidy – аккуратный.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"The writer lives in a flat.", answer:true },
+        { text:"There is no bookshelf in the room.", answer:false },
+        { text:"The room is messy.", answer:false },
+        { text:"He reads books on his bed.", answer:true }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"Where does he do homework?",
+          options:["On the sofa.","At the desk.","In the kitchen."],
+          correct:1
+        },
+        {
+          q:"What is on the wall?",
+          options:["A TV.","A poster.","A mirror."],
+          correct:1
+        },
+        {
+          q:"Why is his room tidy?",
+          options:["He likes order.","He never uses the room.","His parents clean it."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        { q:"The flat is ___.", options:["comfortable","tiny","dirty"], correct:0 },
+        { q:"There is a small ___.", options:["carpet","window","lamp only"], correct:0 },
+        { q:"The room is always ___.", options:["tidy","dark","cold"], correct:0 }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose the best.",
+      items:[
+        {
+          q:"The text is about…",
+          options:["cleaning the house.","a favourite room.","school subjects."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The beginning describes…",
+          options:["the flat.","sports.","pets."],
+          correct:0
+        },
+        {
+          q:"The middle describes…",
+          options:["the furniture.","a holiday.","clothes."],
+          correct:0
+        },
+        {
+          q:"The end describes…",
+          options:["why the room is tidy.","an accident.","a movie."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He lives in a flat.", order:1 },
+        { text:"He describes the room.", order:2 },
+        { text:"He explains his routine.", order:3 },
+        { text:"He says the room is tidy.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 6 — MY SCHOOL LIFE
+------------------------------------------ */
   {
-    id:1,
-    name:"My School Day",
+    id:6,
+    name:"My School Life",
     level:"Beginner",
-    title:"A Busy School Day",
-    text:"My name is Aigerim and I am eleven years old. I usually get up at seven o’clock. I have breakfast with my family and then I walk to school with my friend Dana. Our lessons start at eight. We have Maths, English and PE in the morning. I like English best because we play games and speak a lot. We usually finish school at one o’clock. In the afternoon I do my homework, help my mum and then I watch a little TV or chat with my friends online. I always go to bed before ten.",
-    vocab:"finish – заканчивать; before – перед; online – в интернете.",
+    title:"My School Life",
+    text:"I study at a modern school with bright classrooms and a big gym. We learn English, Maths, Science, Art and PE. My favourite subject is English because we speak a lot and play games. My teachers are kind and helpful. During breaks I talk with friends or walk outside. School starts at eight o’clock and finishes at one. I enjoy learning new things every day.",
+    vocab:"bright – светлый; helpful – готовый помочь.",
     exercises:[
       {
         type:"trueFalse",
         title:"Ex 1. True or False",
-        desc:"Read the sentences. Are they true (T) or false (F)?",
+        desc:"Mark T/F.",
         items:[
-          { text:"Aigerim is eleven years old.", answer:true },
-          { text:"She goes to school by bus.", answer:false },
-          { text:"She likes English best.", answer:true },
-          { text:"She usually finishes school at four o’clock.", answer:false }
+          { text:"The school has a big gym.", answer:true },
+          { text:"His favourite subject is Maths.", answer:false },
+          { text:"Teachers are helpful.", answer:true },
+          { text:"School ends at five o’clock.", answer:false }
         ]
       },
       {
         type:"mcq",
         title:"Ex 2. Multiple choice",
-        desc:"Choose the correct answer (A, B or C).",
+        desc:"Choose.",
         items:[
           {
-            q:"Who does Aigerim go to school with?",
-            options:["With her brother.","With her friend Dana.","With her neighbour."],
-            correct:1
-          },
-          {
-            q:"What lessons does she have in the morning?",
-            options:["Maths, English and PE.","Science and History.","Art and Music."],
+            q:"Where does he study?",
+            options:["In a modern school.","In a village.","At home."],
             correct:0
           },
           {
-            q:"What does she like doing in English lessons?",
-            options:["Writing long tests.","Listening to the teacher only.","Playing games and speaking."],
-            correct:2
+            q:"What does he do during breaks?",
+            options:["Sleeps.","Talks with friends.","Cooks."],
+            correct:1
+          },
+          {
+            q:"When does school start?",
+            options:["At 8.","At 10.","At 12."],
+            correct:0
           }
         ]
       },
       {
         type:"mcq",
         title:"Ex 3. Gap-fill",
-        desc:"Choose the best word to complete the sentence.",
+        desc:"Choose.",
         items:[
-          {
-            q:"She usually gets up ___ seven o’clock.",
-            options:["at","in","on"],
-            correct:0
-          },
-          {
-            q:"She walks to school ___ her friend.",
-            options:["with","for","from"],
-            correct:0
-          },
-          {
-            q:"She goes to bed ___ ten.",
-            options:["after","before","between"],
-            correct:1
-          }
+          { q:"The classrooms are ___.", options:["dark","bright","dirty"], correct:1 },
+          { q:"He likes English because they ___.", options:["sing","play games","sleep"], correct:1 },
+          { q:"Teachers are ___.", options:["angry","kind","loud"], correct:1 }
         ]
       },
       {
         type:"mcq",
         title:"Ex 4. Main idea",
-        desc:"What is the main idea of the text?",
-        items:[
-          {
-            q:"Choose the best title.",
-            options:[
-              "Aigerim’s favourite school subject.",
-              "Aigerim’s free time at the weekend.",
-              "Aigerim’s typical school day."
-            ],
-            correct:2
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 5. Parts of the text",
-        desc:"Match the parts of the text with the information.",
-        items:[
-          {
-            q:"The beginning of the text is mostly about…",
-            options:["Aigerim’s evening.","Aigerim’s morning and school.","A trip to another city."],
-            correct:1
-          },
-          {
-            q:"The middle of the text is about…",
-            options:["Her favourite subject.","Her pet.","Her grandparents."],
-            correct:0
-          },
-          {
-            q:"The end of the text is about…",
-            options:["What she does after school.","Her friends’ hobbies.","Her summer holidays."],
-            correct:0
-          }
-        ]
-      },
-      {
-        type:"order",
-        title:"Ex 6. Order of events",
-        desc:"Put the events in the correct order (1–4).",
-        items:[
-          { text:"She does her homework and helps her mum.", order:3 },
-          { text:"She has breakfast with her family.", order:1 },
-          { text:"She walks to school with Dana.", order:2 },
-          { text:"She watches TV or chats online.", order:4 }
-        ]
-      }
-    ]
-  },
-  {
-    id:2,
-    name:"My Best Friend",
-    level:"Beginner",
-    title:"My Best Friend Timur",
-    text:"My best friend’s name is Timur. He is in my class. Timur is tall and slim. He has short dark hair and big brown eyes. He is very friendly and always helps other students. We usually sit together in English lessons. After school we sometimes play football in the yard or go to the park. Timur loves computer games, but he never forgets to do his homework. When I have a problem, I can always talk to him.",
-    vocab:"slim – стройный; friendly – дружелюбный; yard – двор.",
-    exercises:[
-      {
-        type:"trueFalse",
-        title:"Ex 1. True or False",
-        desc:"Are the sentences true (T) or false (F)?",
-        items:[
-          { text:"Timur is in another school.", answer:false },
-          { text:"He is tall and slim.", answer:true },
-          { text:"He is unfriendly and rude.", answer:false },
-          { text:"He loves computer games.", answer:true }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 2. Multiple choice",
-        desc:"Choose the correct answer.",
-        items:[
-          {
-            q:"Where do the friends usually sit together?",
-            options:["In Maths lessons.","In English lessons.","In PE lessons."],
-            correct:1
-          },
-          {
-            q:"What do they sometimes do after school?",
-            options:["Play football or go to the park.","Study in the library.","Go shopping."],
-            correct:0
-          },
-          {
-            q:"What can the writer do when he has a problem?",
-            options:["Ignore it.","Talk to Timur.","Talk only to the teacher."],
-            correct:1
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 3. Gap-fill",
-        desc:"Choose the word that best completes the sentence.",
-        items:[
-          {
-            q:"Timur always helps ___ students.",
-            options:["other","another","others"],
-            correct:0
-          },
-          {
-            q:"They sometimes play football ___ the yard.",
-            options:["in","on","at"],
-            correct:0
-          },
-          {
-            q:"He never forgets ___ his homework.",
-            options:["does","doing","to do"],
-            correct:2
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 4. Main idea",
-        desc:"Choose the best sentence that describes the text.",
-        items:[
-          {
-            q:"The text is mainly about…",
-            options:[
-              "Timur’s favourite computer games.",
-              "Timur’s appearance and character as a good friend.",
-              "A football match in the park."
-            ],
-            correct:1
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 5. Parts of the text",
-        desc:"Answer about parts of the text.",
-        items:[
-          {
-            q:"The first part of the text describes…",
-            options:["what Timur looks like.","where they play.","their school rules."],
-            correct:0
-          },
-          {
-            q:"The middle of the text describes…",
-            options:["Timur’s family.","their activities together.","a school trip."],
-            correct:1
-          },
-          {
-            q:"The last sentence shows…",
-            options:["that Timur is a very important friend.","that they don’t talk much.","that Timur hates problems."],
-            correct:0
-          }
-        ]
-      },
-      {
-        type:"order",
-        title:"Ex 6. Order of events",
-        desc:"Put these ideas in the order they appear in the text.",
-        items:[
-          { text:"Timur’s appearance is described.", order:2 },
-          { text:"The writer explains he can talk to Timur about problems.", order:4 },
-          { text:"We learn Timur is in the same class.", order:1 },
-          { text:"We read about what they do after school.", order:3 }
-        ]
-      }
-    ]
-  },
-  {
-    id:3,
-    name:"Rainy Sunday",
-    level:"Beginner",
-    title:"A Rainy Sunday at Home",
-    text:"On Sunday the weather was terrible. It was cold, rainy and windy, so my family stayed at home. In the morning my mum baked apple pies in the kitchen. They smelled wonderful. My dad read a book in the living room. My sister and I did our homework and then played board games. After lunch we watched a funny film together. In the evening we drank hot tea with pie and talked. It was a quiet but very cosy day.",
-    vocab:"terrible – ужасный; smelled – пахли; cosy – уютный.",
-    exercises:[
-      {
-        type:"trueFalse",
-        title:"Ex 1. True or False",
-        desc:"Decide if the sentences are true (T) or false (F).",
-        items:[
-          { text:"The weather was sunny and hot.", answer:false },
-          { text:"The family stayed at home.", answer:true },
-          { text:"The children played board games.", answer:true },
-          { text:"In the evening they went to the cinema.", answer:false }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 2. Multiple choice",
-        desc:"Choose the correct answer.",
-        items:[
-          {
-            q:"Why did the family stay at home?",
-            options:["Because the weather was terrible.","Because the TV was broken.","Because it was a holiday."],
-            correct:0
-          },
-          {
-            q:"What did the mum do?",
-            options:["She read a book.","She baked apple pies.","She went shopping."],
-            correct:1
-          },
-          {
-            q:"What did they do after lunch?",
-            options:["Watched a film.","Cleaned the house.","Went for a walk."],
-            correct:0
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 3. Gap-fill",
-        desc:"Choose the best word.",
-        items:[
-          {
-            q:"The pies ___ wonderful.",
-            options:["smelled","looked","sounded"],
-            correct:0
-          },
-          {
-            q:"They watched a ___ film.",
-            options:["quiet","funny","boring"],
-            correct:1
-          },
-          {
-            q:"It was a quiet but very ___ day.",
-            options:["cosy","cold","dangerous"],
-            correct:0
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 4. Main idea",
-        desc:"What is the main idea of the text?",
-        items:[
-          {
-            q:"The text shows that…",
-            options:[
-              "a rainy day can still be nice at home.",
-              "rainy days are always boring.",
-              "the family likes travelling."
-            ],
-            correct:0
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 5. Parts of the text",
-        desc:"Answer about different parts of the story.",
-        items:[
-          {
-            q:"The beginning describes…",
-            options:["the evening.","the weather and the decision to stay home.","the lunch."],
-            correct:1
-          },
-          {
-            q:"The middle part describes…",
-            options:["what everyone does at home.","a trip to the city.","a school day."],
-            correct:0
-          },
-          {
-            q:"The end of the text describes…",
-            options:["the next morning.","the evening with tea and talking.","their neighbours."],
-            correct:1
-          }
-        ]
-      },
-      {
-        type:"order",
-        title:"Ex 6. Order of events",
-        desc:"Put the events in the correct order.",
-        items:[
-          { text:"They watched a funny film.", order:3 },
-          { text:"Mum baked apple pies.", order:1 },
-          { text:"The children did homework and played board games.", order:2 },
-          { text:"They drank hot tea and talked.", order:4 }
-        ]
-      }
-    ]
-  },
-  {
-    id:4,
-    name:"Visit to Granny",
-    level:"Beginner",
-    title:"Weekend at Granny’s House",
-    text:"Every month I visit my granny in the village. She lives in a small but beautiful house with a big garden. In the morning we feed the chickens and water the flowers. Sometimes we pick apples and berries. My granny cooks very tasty soup and homemade bread. In the evening we sit on the bench in front of the house and watch the stars. I love these quiet weekends.",
-    vocab:"pick – собирать; homemade – домашний; bench – скамейка.",
-    exercises:[
-      {
-        type:"trueFalse",
-        title:"Ex 1. True or False",
-        desc:"True (T) or false (F)?",
-        items:[
-          { text:"The writer visits granny every week.", answer:false },
-          { text:"Granny has a big garden.", answer:true },
-          { text:"They watch TV every evening.", answer:false },
-          { text:"The writer likes these weekends.", answer:true }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 2. Multiple choice",
-        desc:"Choose the correct answer.",
-        items:[
-          {
-            q:"Where does granny live?",
-            options:["In a village.","In the city centre.","Near the sea."],
-            correct:0
-          },
-          {
-            q:"What do they do in the morning?",
-            options:["Go to school.","Feed chickens and water flowers.","Sleep all day."],
-            correct:1
-          },
-          {
-            q:"What do they watch in the evening?",
-            options:["The stars.","The river.","Cars."],
-            correct:0
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 3. Gap-fill",
-        desc:"Choose the best word.",
-        items:[
-          {
-            q:"Granny lives in a small but ___ house.",
-            options:["ugly","beautiful","dirty"],
-            correct:1
-          },
-          {
-            q:"They sometimes pick apples and ___.",
-            options:["trees","books","berries"],
-            correct:2
-          },
-          {
-            q:"The bread is ___.",
-            options:["homemade","fast","cold"],
-            correct:0
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 4. Main idea",
-        desc:"Choose the best sentence.",
-        items:[
-          {
-            q:"The text is mostly about…",
-            options:[
-              "a noisy weekend in the city.",
-              "quiet and happy weekends at granny’s house.",
-              "a difficult school day."
-            ],
-            correct:1
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 5. Parts of the text",
-        desc:"Answer about the parts.",
-        items:[
-          {
-            q:"The first part tells us about…",
-            options:["how often the writer visits and where granny lives.","what they eat.","who lives next door."],
-            correct:0
-          },
-          {
-            q:"The middle part tells us about…",
-            options:["school subjects.","their morning work and food.","a TV show."],
-            correct:1
-          },
-          {
-            q:"The last sentence shows…",
-            options:["the writer doesn’t like the weekends.","the writer loves these weekends.","the writer wants to move to the city."],
-            correct:1
-          }
-        ]
-      },
-      {
-        type:"order",
-        title:"Ex 6. Order of events",
-        desc:"Put the ideas in order.",
-        items:[
-          { text:"They sit on the bench and watch the stars.", order:4 },
-          { text:"They feed the chickens.", order:2 },
-          { text:"We learn that the writer visits granny every month.", order:1 },
-          { text:"They eat tasty soup and bread.", order:3 }
-        ]
-      }
-    ]
-  },
-  {
-    id:5,
-    name:"Four Seasons",
-    level:"Beginner",
-    title:"The Four Seasons",
-    text:"There are four seasons in a year: spring, summer, autumn and winter. In spring the weather gets warmer and trees become green. Many people feel happy after a long winter. In summer it is usually hot. Children have holidays and often go to camps, the sea or the village. Autumn is a colourful season with yellow and red leaves. It is time to go back to school. In winter it is cold and snowy. We can play snowballs, skate and drink hot tea at home.",
-    vocab:"become – становиться; leaves – листья; snowballs – снежки.",
-    exercises:[
-      {
-        type:"trueFalse",
-        title:"Ex 1. True or False",
-        desc:"Read and mark T/F.",
-        items:[
-          { text:"In spring the weather gets colder.", answer:false },
-          { text:"In summer children often have holidays.", answer:true },
-          { text:"Autumn is a colourful season.", answer:true },
-          { text:"In winter it is usually very hot.", answer:false }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 2. Multiple choice",
-        desc:"Choose the correct answer.",
-        items:[
-          {
-            q:"What happens in spring?",
-            options:["Trees become green.","Leaves become black.","It starts to snow."],
-            correct:0
-          },
-          {
-            q:"Where can children go in summer?",
-            options:["Only to school.","To camps or the sea.","Nowhere."],
-            correct:1
-          },
-          {
-            q:"What can we do in winter?",
-            options:["Swim in the river.","Play snowballs and skate.","Plant flowers."],
-            correct:1
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 3. Gap-fill",
-        desc:"Choose the correct missing word.",
-        items:[
-          {
-            q:"Autumn is a ___ season.",
-            options:["colourful","boring","empty"],
-            correct:0
-          },
-          {
-            q:"In winter it is cold and ___.",
-            options:["green","snowy","windy only"],
-            correct:1
-          },
-          {
-            q:"In summer children often go on ___.",
-            options:["homework","holidays","lessons"],
-            correct:1
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 4. Main idea",
-        desc:"Choose the best title.",
+        desc:"Choose.",
         items:[
           {
             q:"The text is about…",
-            options:[
-              "different sports in winter.",
-              "what people eat in summer.",
-              "the four seasons and what people do."
-            ],
-            correct:2
+            options:["a birthday.","school life.","a trip."],
+            correct:1
           }
         ]
       },
       {
         type:"mcq",
-        title:"Ex 5. Parts of the text",
-        desc:"Answer about parts.",
+        title:"Ex 5. Parts",
+        desc:"Choose.",
         items:[
           {
-            q:"The first part tells us…",
-            options:["only about winter.","the names of all seasons and spring.","about a trip."],
-            correct:1
-          },
-          {
-            q:"The middle part tells us…",
-            options:["about summer and autumn.","about granny’s village.","about shopping."],
+            q:"The beginning describes…",
+            options:["the building.","a holiday.","a room."],
             correct:0
           },
           {
-            q:"The last part tells us…",
-            options:["about winter activities.","about breakfast.","about tests at school."],
+            q:"The middle describes…",
+            options:["subjects.","food.","weather."],
+            correct:0
+          },
+          {
+            q:"The end describes…",
+            options:["break time and schedule.","movies.","toys."],
             correct:0
           }
         ]
       },
       {
         type:"order",
-        title:"Ex 6. Order of events",
-        desc:"Put the seasons in the order they appear in the text.",
+        title:"Ex 6. Order",
+        desc:"Put in order.",
         items:[
-          { text:"Summer – children have holidays.", order:2 },
-          { text:"Winter – we play snowballs.", order:4 },
-          { text:"Autumn – colourful leaves.", order:3 },
-          { text:"Spring – trees become green.", order:1 }
+          { text:"He studies at a modern school.", order:1 },
+          { text:"He talks about subjects.", order:2 },
+          { text:"He talks with friends during breaks.", order:3 },
+          { text:"He says school ends at one.", order:4 }
         ]
       }
     ]
   },
-  {
-    id:6,
-    name:"New Student",
-    level:"Beginner",
-    title:"A New Student in Our Class",
-    text:"This year we have a new student in our class. His name is Daniel and he comes from another city. On the first day he was very quiet and a little nervous. Our teacher asked everybody to introduce themselves. After the lesson I showed Daniel the canteen and the gym. Now he has many friends and he often laughs in class. He says our class is friendly and he is happy here.",
-    vocab:"quiet – тихий; nervous – нервный; introduce – представляться.",
-    exercises:[
-      {
-        type:"trueFalse",
-        title:"Ex 1. True or False",
-        desc:"Are these sentences true (T) or false (F)?",
-        items:[
-          { text:"Daniel comes from the same city.", answer:false },
-          { text:"He was nervous on the first day.", answer:true },
-          { text:"The writer showed him the canteen.", answer:true },
-          { text:"Now Daniel has no friends.", answer:false }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 2. Multiple choice",
-        desc:"Choose the correct answer.",
-        items:[
-          {
-            q:"What did the teacher ask the students to do?",
-            options:["To introduce themselves.","To write a test.","To clean the classroom."],
-            correct:0
-          },
-          {
-            q:"Where did the writer take Daniel after the lesson?",
-            options:["To the library and the office.","To the canteen and the gym.","Home."],
-            correct:1
-          },
-          {
-            q:"How does Daniel feel now?",
-            options:["He is happy in this class.","He is still very nervous.","He wants to leave the school."],
-            correct:0
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 3. Gap-fill",
-        desc:"Choose the best word.",
-        items:[
-          {
-            q:"Daniel is a new student in ___ class.",
-            options:["our","his old","their"],
-            correct:0
-          },
-          {
-            q:"On the first day he was very ___ and nervous.",
-            options:["noisy","quiet","angry"],
-            correct:1
-          },
-          {
-            q:"He says our class is ___.",
-            options:["boring","strict","friendly"],
-            correct:2
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 4. Main idea",
-        desc:"Choose the best sentence.",
-        items:[
-          {
-            q:"The main idea of the text is that…",
-            options:[
-              "new students always feel bad.",
-              "a new student can become happy if the class is friendly.",
-              "teachers never help new students."
-            ],
-            correct:1
-          }
-        ]
-      },
-      {
-        type:"mcq",
-        title:"Ex 5. Parts of the text",
-        desc:"Answer about different parts of the story.",
-        items:[
-          {
-            q:"The beginning of the text tells us…",
-            options:["Daniel’s hobbies.","that Daniel is new and from another city.","about summer holidays."],
-            correct:1
-          },
-          {
-            q:"The middle of the text tells us…",
-            options:["about the first day and the tour of the school.","about tests.","about a football match."],
-            correct:0
-          },
-          {
-            q:"The last sentences tell us…",
-            options:["that Daniel is unhappy.","that Daniel is happy and has friends.","that Daniel changed school again."],
-            correct:1
-          }
-        ]
-      },
-      {
-        type:"order",
-        title:"Ex 6. Order of events",
-        desc:"Put the events in the correct order.",
-        items:[
-          { text:"The teacher asks students to introduce themselves.", order:2 },
-          { text:"Daniel was quiet and nervous.", order:1 },
-          { text:"The writer shows Daniel the canteen and the gym.", order:3 },
-          { text:"Daniel has many friends and feels happy.", order:4 }
-        ]
-      }
-    ]
-  }
-];
 
-/* ---------- конвертация упражнений в формат questions[] ---------- */
-topics.forEach(t=>{
-  t.exercises.forEach(ex=>{
-    if(ex.type==="trueFalse"){
-      ex.questions = ex.items.map(item=>({
-        text:item.text,
-        options:["True","False"],
-        correct:item.answer ? 0 : 1
-      }));
-    }else if(ex.type==="mcq"){
-      ex.questions = ex.items.map(item=>({
-        text:item.q,
-        options:item.options,
-        correct:item.correct
-      }));
-    }else if(ex.type==="order"){
-      const n=ex.items.length;
-      ex.questions = ex.items.map(item=>({
-        text:item.text,
-        options:Array.from({length:n},(_,i)=>String(i+1)),
-        correct:item.order-1
-      }));
+/* -----------------------------------------
+   TOPIC 7 — MY DAILY ROUTINE
+------------------------------------------ */
+{
+  id:7,
+  name:"My Daily Routine",
+  level:"Beginner",
+  title:"My Daily Routine",
+  text:"I usually wake up at seven o’clock. I wash my face, have breakfast and go to school. After lessons I come home and eat lunch. Then I do my homework and help my mum. In the evening I read a book, watch videos or play games. I always try to sleep early because I need energy for the next day.",
+  vocab:"energy – энергия; usually – обычно.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"He wakes up at seven.", answer:true },
+        { text:"He eats lunch at school.", answer:false },
+        { text:"He helps his mum.", answer:true },
+        { text:"He sleeps very late.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"When does he wake up?",
+          options:["At 5.","At 7.","At 10."],
+          correct:1
+        },
+        {
+          q:"What does he do after lunch?",
+          options:["Homework.","Swimming.","Travelling."],
+          correct:0
+        },
+        {
+          q:"What does he do in the evening?",
+          options:["Works at school.","Reads or plays games.","Cooks dinner."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        { q:"He wakes __ at seven.", options:["over","up","on"], correct:1 },
+        { q:"He does his ___.", options:["homework","shopping","painting"], correct:0 },
+        { q:"He tries to sleep ___.", options:["early","late","never"], correct:0 }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:["a trip.","daily routine.","a movie."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The beginning is about…",
+          options:["morning.","evening.","night."],
+          correct:0
+        },
+        {
+          q:"The middle is about…",
+          options:["school and lunch.","games.","travel."],
+          correct:0
+        },
+        {
+          q:"The end is about…",
+          options:["evening.","sports.","friends."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He wakes up.", order:1 },
+        { text:"He goes to school.", order:2 },
+        { text:"He does homework.", order:3 },
+        { text:"He sleeps early.", order:4 }
+      ]
     }
-  });
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 8 — FOOD AND DRINKS
+------------------------------------------ */
+{
+  id:8,
+  name:"Food and Drinks",
+  level:"Beginner",
+  title:"Healthy Food",
+  text:"I like healthy food. For breakfast I usually eat eggs or porridge and drink tea. For lunch I eat soup, rice and salad. In the evening I eat something light. My favourite fruits are apples and bananas. I drink water every day because it is good for health. I try not to eat too much junk food.",
+  vocab:"healthy – здоровый; junk food – вредная еда.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"He eats porridge for breakfast.", answer:true },
+        { text:"He drinks cola every day.", answer:false },
+        { text:"He likes apples and bananas.", answer:true },
+        { text:"He eats a heavy dinner.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"What does he eat for lunch?",
+          options:["Pizza.","Soup and rice.","Only fruit."],
+          correct:1
+        },
+        {
+          q:"What does he drink?",
+          options:["Tea and water.","Juice only.","Coffee."],
+          correct:0
+        },
+        {
+          q:"What does he avoid?",
+          options:["Salad.","Junk food.","Fruit."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        { q:"He likes ___ food.", options:["healthy","cold","cheap"], correct:0 },
+        { q:"He eats something __ in the evening.", options:["light","spicy","fried"], correct:0 },
+        { q:"He drinks __ every day.", options:["cola","water","milk only"], correct:1 }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:["sports.","healthy eating.","technology."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The beginning is about…",
+          options:["breakfast.","school.","games."],
+          correct:0
+        },
+        {
+          q:"The middle is about…",
+          options:["lunch.","travel.","pets."],
+          correct:0
+        },
+        {
+          q:"The end is about…",
+          options:["junk food.","work.","shopping."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He eats breakfast.", order:1 },
+        { text:"He eats lunch.", order:2 },
+        { text:"He eats a light dinner.", order:3 },
+        { text:"He avoids junk food.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 9 — SPORTS
+------------------------------------------ */
+{
+  id:9,
+  name:"Sports",
+  level:"Beginner",
+  title:"Sports and Activities",
+  text:"I enjoy sports. My favourite sport is football. I play it after school with my friends. At weekends I go to the swimming pool with my family. Sports help me stay healthy and strong. When the weather is good, I ride my bike or run in the yard. Being active makes me feel happy.",
+  vocab:"active – активный; strong – сильный.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"His favourite sport is football.", answer:true },
+        { text:"He never swims.", answer:false },
+        { text:"Sports make him healthy.", answer:true },
+        { text:"He is not active.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"What does he do after school?",
+          options:["Plays football.","Shops.","Sleeps."],
+          correct:0
+        },
+        {
+          q:"Where does he go at weekends?",
+          options:["To the pool.","To the airport.","To school."],
+          correct:0
+        },
+        {
+          q:"What makes him happy?",
+          options:["Being active.","Eating sweets.","Cleaning."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        { q:"He enjoys ___.", options:["sports","art","shopping"], correct:0 },
+        { q:"He rides his ___.", options:["bike","bus","horse"], correct:0 },
+        { q:"Sports help him stay ___.", options:["cold","strong","sleepy"], correct:1 }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:["food.","sports activities.","weather."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The beginning tells about…",
+          options:["football.","a trip.","school."],
+          correct:0
+        },
+        {
+          q:"The middle tells about…",
+          options:["swimming and biking.","reading.","shopping."],
+          correct:0
+        },
+        {
+          q:"The end tells about…",
+          options:["happiness.","weather.","animals."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He plays football.", order:1 },
+        { text:"He swims at weekends.", order:2 },
+        { text:"He rides a bike.", order:3 },
+        { text:"He feels happy.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 10 — WEATHER AND SEASONS
+------------------------------------------ */
+{
+  id:10,
+  name:"Weather and Seasons",
+  level:"Beginner",
+  title:"Weather and Seasons",
+  text:"There are four seasons: spring, summer, autumn and winter. I like summer because it is hot and sunny. I can swim in the sea and play outside. Winter is cold and snowy, but I enjoy playing snowballs and skating. Autumn has colourful leaves, and spring is warm and fresh. Every season has something special.",
+  vocab:"season – сезон; colourful – красочный.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"There are four seasons.", answer:true },
+        { text:"Summer is cold and windy.", answer:false },
+        { text:"Winter is snowy.", answer:true },
+        { text:"Autumn has colourful leaves.", answer:true }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"Which season is hot?",
+          options:["Winter.","Summer.","Autumn."],
+          correct:1
+        },
+        {
+          q:"What can you do in winter?",
+          options:["Swim.","Skate.","Plant flowers."],
+          correct:1
+        },
+        {
+          q:"What is special about autumn?",
+          options:["Colourful leaves.","Hot weather.","Bright sun."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        { q:"Summer is ___.", options:["hot","dark","cold"], correct:0 },
+        { q:"Winter is ___.", options:["rainy","snowy","dry"], correct:1 },
+        { q:"Spring is ___.", options:["fresh","boring","dangerous"], correct:0 }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:["food.","seasons.","technology."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The beginning is about…",
+          options:["the number of seasons.","school.","family."],
+          correct:0
+        },
+        {
+          q:"The middle is about…",
+          options:["summer and winter.","shopping.","toys."],
+          correct:0
+        },
+        {
+          q:"The end is about…",
+          options:["each season being special.","sports.","food."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He talks about four seasons.", order:1 },
+        { text:"He describes summer.", order:2 },
+        { text:"He describes winter.", order:3 },
+        { text:"He says every season is special.", order:4 }
+      ]
+    }
+  ]
+}
+
+];
+/* -----------------------------------------
+   TOPIC 11 — TRAVEL AND HOLIDAYS
+------------------------------------------ */
+{
+  id:11,
+  name:"Travel and Holidays",
+  level:"Beginner",
+  title:"Travel and Holidays",
+  text:"Every summer my family travels during the school holidays. Sometimes we go to the village to visit my grandparents. We help them in the garden and walk in the fields. Sometimes we go to the sea and swim, play on the beach and take photos. I like travelling because I see new places and feel free. After holidays I always have many stories to tell my friends at school.",
+  vocab:"holidays – каникулы; fields – поля; beach – пляж.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Are the sentences true or false?",
+      items:[
+        { text:"The family travels every summer.", answer:true },
+        { text:"They never visit grandparents.", answer:false },
+        { text:"They sometimes go to the sea.", answer:true },
+        { text:"After holidays there are no stories to tell.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose the correct answer.",
+      items:[
+        {
+          q:"Where do they sometimes travel?",
+          options:["To the moon.","To the village and the sea.","Only to school."],
+          correct:1
+        },
+        {
+          q:"What do they do at the sea?",
+          options:["Swim and play on the beach.","Do homework.","Clean the house."],
+          correct:0
+        },
+        {
+          q:"Why does the writer like travelling?",
+          options:[
+            "Because it is boring.",
+            "Because of new places.",
+            "Because there is more homework."
+          ],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose the best word.",
+      items:[
+        {
+          q:"They travel during school ___.",
+          options:["tests","holidays","lessons"],
+          correct:1
+        },
+        {
+          q:"They help in the ___.",
+          options:["garden","kitchen","classroom"],
+          correct:0
+        },
+        {
+          q:"They take many ___.",
+          options:["photos","books","pencils"],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"What is the text about?",
+      items:[
+        {
+          q:"The text is mainly about…",
+          options:[
+            "School exams.",
+            "Family trips during holidays.",
+            "Shopping in the city."
+          ],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts of the text",
+      desc:"Answer about parts of the text.",
+      items:[
+        {
+          q:"The beginning tells us…",
+          options:[
+            "that the family travels every summer.",
+            "about school marks.",
+            "about city traffic."
+          ],
+          correct:0
+        },
+        {
+          q:"The middle tells us…",
+          options:[
+            "about helping in the garden and going to the sea.",
+            "about playing computer games.",
+            "about a birthday party."
+          ],
+          correct:0
+        },
+        {
+          q:"The end tells us…",
+          options:[
+            "that there are many stories after holidays.",
+            "that travelling is dangerous.",
+            "that holidays are always boring."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order of events",
+      desc:"Put the events in the correct order (1–4).",
+      items:[
+        { text:"The family travels during school holidays.", order:1 },
+        { text:"They visit grandparents and help in the garden.", order:2 },
+        { text:"They go to the sea and play on the beach.", order:3 },
+        { text:"The writer tells stories to friends at school.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 12 — MOVIES AND MUSIC
+------------------------------------------ */
+{
+  id:12,
+  name:"Movies and Music",
+  level:"Beginner",
+  title:"Movies and Music",
+  text:"I love watching movies and listening to music in my free time. My favourite movies are comedies because they are funny and make me laugh. I also enjoy adventure films. I listen to music every day on my phone. Sometimes I listen to pop songs, sometimes to calm music when I do homework. Music and movies help me relax after a busy school day.",
+  vocab:"comedy – комедия; calm – спокойная; busy – занятый.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Choose T or F.",
+      items:[
+        { text:"The writer loves movies and music.", answer:true },
+        { text:"His favourite movies are horror films.", answer:false },
+        { text:"He listens to music every day.", answer:true },
+        { text:"Music never helps him relax.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose the correct answer.",
+      items:[
+        {
+          q:"What movies does he like most?",
+          options:["Comedies.","Documentaries.","Only cartoons."],
+          correct:0
+        },
+        {
+          q:"When does he listen to calm music?",
+          options:["When he sleeps.","When he does homework.","When he runs."],
+          correct:1
+        },
+        {
+          q:"What do music and movies help him do?",
+          options:["Relax.","Eat more.","Learn Maths."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        {
+          q:"His favourite movies are ___.",
+          options:["scary","funny comedies","silent"],
+          correct:1
+        },
+        {
+          q:"He listens to music on his ___.",
+          options:["phone","TV","radio only"],
+          correct:0
+        },
+        {
+          q:"He relaxes after a ___ school day.",
+          options:["boring","busy","short"],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose the main idea.",
+      items:[
+        {
+          q:"The text is about…",
+          options:[
+            "reading books.",
+            "enjoying movies and music.",
+            "playing sports."
+          ],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts of the text",
+      desc:"Answer.",
+      items:[
+        {
+          q:"The beginning is about…",
+          options:[
+            "free time and interests.",
+            "school subjects.",
+            "family problems."
+          ],
+          correct:0
+        },
+        {
+          q:"The middle is about…",
+          options:[
+            "types of movies and songs.",
+            "shopping.",
+            "animals."
+          ],
+          correct:0
+        },
+        {
+          q:"The end is about…",
+          options:[
+            "relaxing after school.",
+            "a concert at school.",
+            "a trip abroad."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order of events",
+      desc:"Put in order.",
+      items:[
+        { text:"He says he loves movies and music.", order:1 },
+        { text:"He talks about comedies and adventure films.", order:2 },
+        { text:"He listens to music on his phone.", order:3 },
+        { text:"He relaxes after a busy school day.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 13 — BOOKS AND READING
+------------------------------------------ */
+{
+  id:13,
+  name:"Books and Reading",
+  level:"Beginner",
+  title:"Books and Reading",
+  text:"Reading is one of my favourite activities. I like adventure and fantasy books because they are exciting and take me to other worlds. Sometimes I read short stories in English to learn new words. I also use an online dictionary when I don’t understand a word. I try to read at least ten minutes every day. Reading helps me relax and learn at the same time.",
+  vocab:"adventure – приключение; dictionary – словарь.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"The writer likes reading.", answer:true },
+        { text:"He hates adventure and fantasy books.", answer:false },
+        { text:"He sometimes reads in English.", answer:true },
+        { text:"He never uses a dictionary.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"What kinds of books does he like?",
+          options:["Adventure and fantasy.","Only history.","Only comics."],
+          correct:0
+        },
+        {
+          q:"Why does he read in English?",
+          options:["To learn new words.","To sleep.","To count pages."],
+          correct:0
+        },
+        {
+          q:"How often does he try to read?",
+          options:["Once a month.","Every day.","Never."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        {
+          q:"Reading is one of his favourite ___.",
+          options:["foods","activities","places"],
+          correct:1
+        },
+        {
+          q:"He uses an online ___.",
+          options:["teacher","dictionary","game"],
+          correct:1
+        },
+        {
+          q:"Reading helps him ___.",
+          options:["relax and learn.","cook dinner.","drive a car."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:[
+            "watching cartoons.",
+            "the joy of reading.",
+            "playing football."
+          ],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Answer.",
+      items:[
+        {
+          q:"The beginning tells us…",
+          options:[
+            "that he likes reading.",
+            "that he doesn’t read.",
+            "that he hates books."
+          ],
+          correct:0
+        },
+        {
+          q:"The middle tells us…",
+          options:[
+            "what books he likes and how he learns words.",
+            "about food.",
+            "about pets."
+          ],
+          correct:0
+        },
+        {
+          q:"The end tells us…",
+          options:[
+            "that reading is boring.",
+            "that reading helps him relax and learn.",
+            "that reading is only for school."
+          ],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He says reading is a favourite activity.", order:1 },
+        { text:"He talks about adventure and fantasy books.", order:2 },
+        { text:"He mentions reading in English and using a dictionary.", order:3 },
+        { text:"He explains that reading helps him relax and learn.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 14 — TECHNOLOGY AND GADGETS
+------------------------------------------ */
+{
+  id:14,
+  name:"Technology and Gadgets",
+  level:"Beginner",
+  title:"Technology and Gadgets",
+  text:"Technology is part of my everyday life. I have a mobile phone and a computer. I use my phone to chat with friends, listen to music and watch short videos. I use my computer for online lessons and school projects. Gadgets help me study faster and stay in touch with people. But I try not to spend too much time on the screen and I take breaks.",
+  vocab:"gadget – устройство; screen – экран; stay in touch – быть на связи.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Choose T/F.",
+      items:[
+        { text:"Technology is part of his life.", answer:true },
+        { text:"He doesn’t have a phone.", answer:false },
+        { text:"He uses his computer for school projects.", answer:true },
+        { text:"He never takes breaks from the screen.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"What does he do on his phone?",
+          options:["Cooks dinner.","Chats and listens to music.","Drives a car."],
+          correct:1
+        },
+        {
+          q:"What does he do on his computer?",
+          options:["Plays only games.","Online lessons and projects.","Nothing."],
+          correct:1
+        },
+        {
+          q:"Why are gadgets useful?",
+          options:[
+            "They help him study and stay in touch.",
+            "They make him sleepy.",
+            "They clean his room."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        {
+          q:"He has a mobile ___ and a computer.",
+          options:["book","phone","bag"],
+          correct:1
+        },
+        {
+          q:"He tries not to spend too much time on the ___.",
+          options:["screen","floor","roof"],
+          correct:0
+        },
+        {
+          q:"He takes ___.",
+          options:["photos","breaks","buses"],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:[
+            "old technology.",
+            "using gadgets in daily life.",
+            "animals at home."
+          ],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Answer.",
+      items:[
+        {
+          q:"The beginning tells us…",
+          options:[
+            "that technology is part of his life.",
+            "that he hates gadgets.",
+            "that he lives in the village."
+          ],
+          correct:0
+        },
+        {
+          q:"The middle tells us…",
+          options:[
+            "how he uses phone and computer.",
+            "how he cooks.",
+            "how he sleeps."
+          ],
+          correct:0
+        },
+        {
+          q:"The end tells us…",
+          options:[
+            "that he takes breaks and is careful.",
+            "that he never stops using gadgets.",
+            "that he breaks all gadgets."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He says technology is part of his life.", order:1 },
+        { text:"He describes his phone.", order:2 },
+        { text:"He describes his computer.", order:3 },
+        { text:"He explains why gadgets are useful and why he takes breaks.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 15 — SOCIAL MEDIA
+------------------------------------------ */
+{
+  id:15,
+  name:"Social Media",
+  level:"Beginner",
+  title:"Social Media",
+  text:"Many teenagers use social media every day. I use it to chat with friends, share photos and watch short videos. Sometimes I follow interesting pages about sports and art. My parents tell me to be careful and not to share personal information. I try to spend limited time online and turn off my phone before sleep. Social media can be fun, but real life is more important.",
+  vocab:"share – делиться; personal – личный; limited – ограниченный.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"The writer uses social media.", answer:true },
+        { text:"He never chats with friends online.", answer:false },
+        { text:"Parents say to be careful.", answer:true },
+        { text:"He thinks real life is more important.", answer:true }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"What does he do on social media?",
+          options:["Sleeps.","Chats, shares photos and watches videos.","Drives a car."],
+          correct:1
+        },
+        {
+          q:"What do parents tell him?",
+          options:[
+            "To post everything.",
+            "Not to share personal information.",
+            "To play more games."
+          ],
+          correct:1
+        },
+        {
+          q:"What does he do before sleep?",
+          options:[
+            "Turns off his phone.",
+            "Eats chocolate.",
+            "Starts a new film."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        {
+          q:"He uses social media every ___.",
+          options:["year","day","month"],
+          correct:1
+        },
+        {
+          q:"He follows pages about sports and ___.",
+          options:["art","maths","cars only"],
+          correct:0
+        },
+        {
+          q:"He spends ___ time online.",
+          options:["limited","endless","zero"],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:[
+            "books and libraries.",
+            "how he uses social media carefully.",
+            "building a house."
+          ],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Answer.",
+      items:[
+        {
+          q:"The beginning tells us…",
+          options:[
+            "that many teenagers use social media.",
+            "about school marks.",
+            "about animals."
+          ],
+          correct:0
+        },
+        {
+          q:"The middle tells us…",
+          options:[
+            "what he does online and what parents say.",
+            "about food.",
+            "about sports only."
+          ],
+          correct:0
+        },
+        {
+          q:"The end tells us…",
+          options:[
+            "that real life is more important.",
+            "that social media is everything.",
+            "that he deletes the internet."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He says teenagers use social media.", order:1 },
+        { text:"He explains what he does online.", order:2 },
+        { text:"He tells what parents say.", order:3 },
+        { text:"He says real life is more important.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 16 — HEALTH AND LIFESTYLE
+------------------------------------------ */
+{
+  id:16,
+  name:"Health and Lifestyle",
+  level:"Beginner",
+  title:"Health and Lifestyle",
+  text:"Healthy lifestyle is very important for me. I try to eat vegetables and fruits every day and drink enough water. I do sports three times a week and walk to school when the weather is good. I also sleep at least eight hours at night. When I feel tired, I take a short break. Good habits help me stay strong and happy.",
+  vocab:"healthy – здоровый; habits – привычки; enough – достаточно.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"Healthy lifestyle is important for the writer.", answer:true },
+        { text:"He never eats vegetables and fruits.", answer:false },
+        { text:"He does sports three times a week.", answer:true },
+        { text:"He sleeps only three hours.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"What does he drink?",
+          options:["Enough water.","Only cola.","Only coffee."],
+          correct:0
+        },
+        {
+          q:"How does he go to school?",
+          options:[
+            "He walks when the weather is good.",
+            "He flies.",
+            "He never goes to school."
+          ],
+          correct:0
+        },
+        {
+          q:"What does he do when he feels tired?",
+          options:["Plays games all night.","Takes a short break.","Eats junk food."],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        {
+          q:"He eats vegetables and __ every day.",
+          options:["sweets","fruits","chips"],
+          correct:1
+        },
+        {
+          q:"He sleeps at least ___ hours.",
+          options:["two","eight","zero"],
+          correct:1
+        },
+        {
+          q:"Good ___ help him stay strong.",
+          options:["habits","mistakes","movies"],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:[
+            "school holidays.",
+            "keeping a healthy lifestyle.",
+            "buying clothes."
+          ],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Answer.",
+      items:[
+        {
+          q:"The beginning tells us…",
+          options:[
+            "that healthy lifestyle is important.",
+            "that he hates sports.",
+            "that he never sleeps."
+          ],
+          correct:0
+        },
+        {
+          q:"The middle tells us…",
+          options:[
+            "about food, water and sports.",
+            "about films.",
+            "about money."
+          ],
+          correct:0
+        },
+        {
+          q:"The end tells us…",
+          options:[
+            "that good habits help him stay strong and happy.",
+            "that habits are useless.",
+            "that health is not important."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He says healthy lifestyle is important.", order:1 },
+        { text:"He talks about food and water.", order:2 },
+        { text:"He talks about sports and sleep.", order:3 },
+        { text:"He explains that good habits help him.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 17 — ART AND CULTURE
+------------------------------------------ */
+{
+  id:17,
+  name:"Art and Culture",
+  level:"Beginner",
+  title:"Art and Culture",
+  text:"I am interested in art and culture. Sometimes my family goes to museums and galleries. There we can see paintings, photos and sculptures. I like looking at bright colours and different styles. At school we also learn about traditional music and dances. Art helps people show their feelings and culture. I think art makes the world more beautiful.",
+  vocab:"gallery – галерея; sculpture – скульптура; traditional – традиционный.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"The writer is interested in art.", answer:true },
+        { text:"The family never visits museums.", answer:false },
+        { text:"He sees paintings and sculptures.", answer:true },
+        { text:"Art cannot show feelings.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"Where do they go sometimes?",
+          options:["To museums and galleries.","To the stadium only.","To the airport."],
+          correct:0
+        },
+        {
+          q:"What do they see there?",
+          options:["Cars.","Paintings and photos.","Only books."],
+          correct:1
+        },
+        {
+          q:"What does art do?",
+          options:[
+            "Shows feelings and culture.",
+            "Makes people hungry.",
+            "Stops time."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        {
+          q:"He is interested in art and ___.",
+          options:["football","culture","maths"],
+          correct:1
+        },
+        {
+          q:"They visit museums and ___.",
+          options:["galleries","farms","banks"],
+          correct:0
+        },
+        {
+          q:"He thinks art makes the world more ___.",
+          options:["expensive","beautiful","cold"],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:[
+            "shopping.",
+            "enjoying art and culture.",
+            "doing homework."
+          ],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Answer.",
+      items:[
+        {
+          q:"The beginning tells us…",
+          options:[
+            "that he is interested in art.",
+            "that he hates museums.",
+            "that he studies only maths."
+          ],
+          correct:0
+        },
+        {
+          q:"The middle tells us…",
+          options:[
+            "about visiting museums and learning traditions.",
+            "about cooking.",
+            "about sports competitions."
+          ],
+          correct:0
+        },
+        {
+          q:"The end tells us…",
+          options:[
+            "that art makes the world more beautiful.",
+            "that art is useless.",
+            "that art is only for rich people."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He says he is interested in art and culture.", order:1 },
+        { text:"He talks about museums and galleries.", order:2 },
+        { text:"He mentions traditional music and dances.", order:3 },
+        { text:"He says art makes the world more beautiful.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 18 — ENVIRONMENT
+------------------------------------------ */
+{
+  id:18,
+  name:"Environment",
+  level:"Beginner",
+  title:"Environment",
+  text:"Nature is very important for people. We need clean air, water and land. I try to protect the environment. I never throw rubbish on the ground and always use bins. At school we sometimes collect paper and plastic for recycling. My friends and I also plant trees in the yard. Small actions can help our planet.",
+  vocab:"environment – окружающая среда; rubbish – мусор; recycling – переработка.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"Nature is important for people.", answer:true },
+        { text:"He throws rubbish on the ground.", answer:false },
+        { text:"They collect paper and plastic for recycling.", answer:true },
+        { text:"Planting trees cannot help the planet at all.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"What does he never do?",
+          options:["Throw rubbish on the ground.","Use bins.","Plant trees."],
+          correct:0
+        },
+        {
+          q:"What do they collect at school?",
+          options:["Money.","Paper and plastic.","Toys."],
+          correct:1
+        },
+        {
+          q:"Where do they plant trees?",
+          options:["In the yard.","In the classroom.","In the kitchen."],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        {
+          q:"We need clean air, water and ___.",
+          options:["cars","land","books"],
+          correct:1
+        },
+        {
+          q:"They collect things for ___.",
+          options:["recycling","cooking","playing"],
+          correct:0
+        },
+        {
+          q:"Small actions can help our ___.",
+          options:["planet","school bell","TV"],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:[
+            "a birthday party.",
+            "protecting the environment.",
+            "computer games."
+          ],
+          correct:1
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Answer.",
+      items:[
+        {
+          q:"The beginning tells us…",
+          options:[
+            "that nature is important.",
+            "that nature is not needed.",
+            "that cities are more important."
+          ],
+          correct:0
+        },
+        {
+          q:"The middle tells us…",
+          options:[
+            "about using bins and recycling.",
+            "about holidays.",
+            "about exams."
+          ],
+          correct:0
+        },
+        {
+          q:"The end tells us…",
+          options:[
+            "that small actions help the planet.",
+            "that nothing can help.",
+            "that only big countries matter."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He says nature is important.", order:1 },
+        { text:"He never throws rubbish on the ground.", order:2 },
+        { text:"They recycle paper and plastic.", order:3 },
+        { text:"They plant trees and help the planet.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 19 — SCIENCE IN EVERYDAY LIFE
+------------------------------------------ */
+{
+  id:19,
+  name:"Science in Everyday Life",
+  level:"Beginner",
+  title:"Science in Everyday Life",
+  text:"Science is all around us. We use electricity when we turn on the light or charge our phone. We use water to cook, clean and drink. Thanks to science we have medicines, computers and the internet. I like learning simple facts about space, animals and our planet. Science helps people live better and solve problems.",
+  vocab:"electricity – электричество; medicine – лекарство; solve – решать.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"Science is all around us.", answer:true },
+        { text:"We never use electricity.", answer:false },
+        { text:"Science gives us medicines and computers.", answer:true },
+        { text:"Science cannot solve any problems.", answer:false }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"When do we use electricity?",
+          options:[
+            "When we sleep.",
+            "When we turn on the light.",
+            "When we walk silently."
+          ],
+          correct:1
+        },
+        {
+          q:"What does science give us?",
+          options:[
+            "Phones and medicines.",
+            "Only trees.",
+            "Only shoes."
+          ],
+          correct:0
+        },
+        {
+          q:"What facts does the writer like?",
+          options:[
+            "About space and animals.",
+            "Only about clothes.",
+            "Only about music."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        {
+          q:"We use water to cook, clean and ___.",
+          options:["sleep","drink","read"],
+          correct:1
+        },
+        {
+          q:"Science helps people live ___.",
+          options:["worse","better","slower"],
+          correct:1
+        },
+        {
+          q:"Science helps people ___ problems.",
+          options:["create","forget","solve"],
+          correct:2
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:[
+            "using science in everyday life.",
+            "only school rules.",
+            "a sport competition."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Answer.",
+      items:[
+        {
+          q:"The beginning tells us…",
+          options:[
+            "that science is everywhere.",
+            "that science is boring.",
+            "that science is only for adults."
+          ],
+          correct:0
+        },
+        {
+          q:"The middle tells us…",
+          options:[
+            "about electricity, water and inventions.",
+            "about food.",
+            "about family."
+          ],
+          correct:0
+        },
+        {
+          q:"The end tells us…",
+          options:[
+            "that science helps us live better.",
+            "that science is dangerous.",
+            "that science stops progress."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"He says science is all around us.", order:1 },
+        { text:"He gives examples with electricity and water.", order:2 },
+        { text:"He mentions medicines, computers and internet.", order:3 },
+        { text:"He says science helps people live better.", order:4 }
+      ]
+    }
+  ]
+},
+
+/* -----------------------------------------
+   TOPIC 20 — SHOPPING AND MONEY
+------------------------------------------ */
+{
+  id:20,
+  name:"Shopping and Money",
+  level:"Beginner",
+  title:"Shopping and Money",
+  text:"I often go shopping with my parents at the weekend. We buy food, clothes and things for the house. I like choosing fruit and looking at different products. Sometimes my parents give me pocket money, and I save it to buy books or small gadgets. They teach me to compare prices and not to spend too much. Shopping can be fun when you plan well.",
+  vocab:"pocket money – карманные деньги; compare – сравнивать; products – продукты/товары.",
+  exercises:[
+    {
+      type:"trueFalse",
+      title:"Ex 1. True or False",
+      desc:"Mark T/F.",
+      items:[
+        { text:"He goes shopping with his parents.", answer:true },
+        { text:"They never buy food.", answer:false },
+        { text:"He sometimes gets pocket money.", answer:true },
+        { text:"His parents teach him to compare prices.", answer:true }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 2. Multiple choice",
+      desc:"Choose.",
+      items:[
+        {
+          q:"When do they usually go shopping?",
+          options:["On Monday morning.","At the weekend.","At night."],
+          correct:1
+        },
+        {
+          q:"What does he like to choose?",
+          options:["Fruit.","Cars.","Houses."],
+          correct:0
+        },
+        {
+          q:"What does he save money for?",
+          options:[
+            "Books or small gadgets.",
+            "Only sweets.",
+            "Only tickets."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 3. Gap-fill",
+      desc:"Choose.",
+      items:[
+        {
+          q:"His parents give him ___ money.",
+          options:["pocket","big","strange"],
+          correct:0
+        },
+        {
+          q:"They buy food, clothes and things for the ___.",
+          options:["school","house","museum"],
+          correct:1
+        },
+        {
+          q:"Shopping can be fun when you __ well.",
+          options:["plan","shout","sleep"],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 4. Main idea",
+      desc:"Choose.",
+      items:[
+        {
+          q:"The text is about…",
+          options:[
+            "saving and spending money while shopping.",
+            "doing sports.",
+            "cooking dinner."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"mcq",
+      title:"Ex 5. Parts",
+      desc:"Answer.",
+      items:[
+        {
+          q:"The beginning tells us…",
+          options:[
+            "that he goes shopping with parents.",
+            "about school tests.",
+            "about pets."
+          ],
+          correct:0
+        },
+        {
+          q:"The middle tells us…",
+          options:[
+            "about pocket money and saving.",
+            "about weather.",
+            "about art."
+          ],
+          correct:0
+        },
+        {
+          q:"The end tells us…",
+          options:[
+            "that shopping can be fun when you plan.",
+            "that shopping is always boring.",
+            "that prices are not important."
+          ],
+          correct:0
+        }
+      ]
+    },
+    {
+      type:"order",
+      title:"Ex 6. Order",
+      desc:"Put in order.",
+      items:[
+        { text:"They go shopping at the weekend.", order:1 },
+        { text:"They buy food and clothes.", order:2 },
+        { text:"He gets pocket money and saves it.", order:3 },
+        { text:"He learns to compare prices and plan.", order:4 }
+      ]
+    }
+  ]
+}
 });
 
 /* ---------- STATE & STORAGE ---------- */
